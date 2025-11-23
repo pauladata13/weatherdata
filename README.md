@@ -1,11 +1,13 @@
-Realice un análisis básico del clima usando una API pública. Se hizo lo siguiente:
+En este ejercicio consulté datos reales del clima usando la API de OpenWeatherMap. Trabajé con un conjunto de ciudades de distintos países y extraje la siguiente información para cada una:
 
-- Se obtuvo información meteorológica mediante una solicitud a una API.
+- Temperatura (°C)
 
-- Se procesaron los datos usando Python y Pandas.
+- Humedad (%)
 
-- Se analizaron los valores obtenidos para entender mejor las condiciones climáticas.
+- Presión (hPa)
 
-- Se crearon gráficos para visualizar la información.
+- Velocidad del viento (m/s)
 
-- El notebook incluye todo el proceso: conexión a la API, transformación de datos y generación de resultados visuales.
+- Descripción del clima
+
+Luego procesé los datos con Python y Pandas, revisé valores faltantes y guardé el resultado en un archivo CSV. El notebook muestra todo el proceso de consulta, limpieza y visualización de los datos.
